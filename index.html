@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Csiburex étterem</title>
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="container-xl container-lg container-md container-md">
+    <div class="navbar navbar-expand-xl navbar-expand-lg navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="col-lg-2 col-md-2">
+          <a href="index.html" class="logo ms-2">
+            <img src="img/csibrex.jpg" alt="csiburex" title="csiburex" class="img-fluid img-logo">
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-2 ms-2 tatar">
+          <h6 class="text-p ms-0">Magyarország<br>Első krími tatár étterme</h6>
+        </div>
+        <div class="col-lg-4 col-md-2 ms-2">
+          <div class="dropdown">
+            <button class="btn btn-menu text-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Menü
+            </button>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropdownMenu">
+              <li><a class="dropdown-item" href="asztal.html">Asztalfoglalás</a></li>
+              <li><a class="dropdown-item" href="etelek.html">Ételek</a></li>
+              <li><a class="dropdown-item" href="#">Italok</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 ms-2 divPhone">
+          <span class="orderPhone">Rendelésfelvétel<br>+3670 700 7000</span>
+        </div>
+        <div class="col-lg-2 col-md-2 ms-2">
+          <span class="opening">Hétfő - Péntek<br>10:00 - 20:00</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!--
+  <section class="section-navbar">
+    <div class="container-xl container-lg container-md container-sm shadow-lg" id="navcontainer">
+      <div class="row justifiy-content-end">
+        <div class="col-lg-2 col-md-2 my-3">
+          <a href="index.html" class="logo my-auto">
+            <img src="img/csibrex.jpg" alt="csiburex" title="csiburex" class="img-fluid img-logo">
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-2 my-auto tatar">
+          <h6 class="text-p ms-0">Magyarország<br>Első krími tatár étterme</h6>
+        </div>
+        <div class="col-lg-4 col-md-2 my-auto">
+          <div class="dropdown">
+            <button class="btn btn-menu text-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Menü
+            </button>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" id="dropdownMenu">
+              <li><a class="dropdown-item" href="asztal.html">Asztalfoglalás</a></li>
+              <li><a class="dropdown-item" href="etelek.html">Ételek</a></li>
+              <li><a class="dropdown-item" href="#">Italok</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 my-auto divPhone">
+          <span class="orderPhone">Rendelésfelvétel<br>+3670 700 7000</span>
+        </div>
+        <div class="col-lg-2 col-md-2 my-auto">
+          <span class="opening">Hétfő - Péntek<br>10:00 - 20:00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
+
+    <div class="empty-div"></div>
+
+    <!-- háttérkép motivum -->
+    <div class="container-xl container-lg container-md backgroundImg "></div>
+
+    <div class="empty-div"></div>
+
+    <!-- napi ajánlat -->
+    <h3 class="text-offer">Napi ajánlatunk</h3>
+
+    <!-- napi ajánlat kártyák -->
+    <section class="section-card">
+      <div class="container-xl container-lg container-md container-sm">
+        <div class="row row-cols-xl-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-4" id="rowDishes">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/cseburek.jpg" class="card-img-top" alt="cseburek" title="cseburek">
+            <div class="card-body">
+              <h4 class="card-h4">Csiburek</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="cardbottom d-flex justify-content-between align-items-center">
+                <div class="price">
+                  <h5>650<em>Ft</em></h5>
+                </div>
+                <div class="price"><button class="btn btn-danger">Kosárba tesz</button></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/jantik.jpg" class="card-img-top" alt="jantik" title="jantik">
+            <div class="card-body">
+              <h4 class="card-h4">Jantik</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="cardbottom d-flex justify-content-between align-items-center">
+                <div class="price">
+                  <h5>680<em>Ft</em></h5>
+                </div>
+                <div class="price"><button class="btn btn-danger">Kosárba tesz</button></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/urfakebab.jpg" class="card-img-top" alt="urfakebab" title="urfakebab">
+            <div class="card-body">
+              <h4 class="card-h4">Urfa kebab</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="cardbottom d-flex justify-content-between align-items-center">
+                <div class="price">
+                  <h5>950<em>Ft</em></h5>
+                </div>
+                <div class="price"><button class="btn btn-danger">Kosárba tesz</button></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/lahmadzsun.jpg" class="card-img-top" alt="lahmadzsun" title="lahmadzsun">
+            <div class="card-body">
+              <h4 class="card-h4">Lahmadzsun</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <div class="cardbottom d-flex justify-content-between align-items-center">
+                <div class="price">
+                  <h5>850<em>Ft</em></h5>
+                </div>
+                <div class="price"><button class="btn btn-danger">Kosárba tesz</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-footer">
+      <div class="container-xl container-lg container-md container-sm bg-dark text-light py-3">
+        <div class="row footer-boxes">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="footer-item">
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <a class="menu-link" href="#">Rólunk</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="#">Kapcsolat</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="asztal.html">Asztalfoglalás</a>
+                </li>
+                <li class="menu-item">
+                  <a class="menu-link" href="#">Állás</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="footer-item">
+              <ul class="menu-list">
+                <li class="menu-item">
+                  <h6 class="address-rest">Éttermünk címe:</h6>
+                  <p class="address-rest">1052 Budapest Váci utca 16</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="googlemaps-link">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.772849402365!2d19.050287215868778!3d47.494338303719154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc412f0c0231%3A0x330b94122389de8!2sBudapest%2C%20V%C3%A1ci%20u%2016%2C%201052!5e0!3m2!1shu!2shu!4v1655824973784!5m2!1shu!2shu"
+                width="95%" height="20%" style="border:0 ; border-radius: 5px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>

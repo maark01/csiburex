@@ -1,0 +1,334 @@
+/*index lap*/
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf6f9;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #73374d !important;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff !important;
+}
+
+.navbar-toggler {
+    background-color: #edf6f9 !important;
+    cursor: none;
+    box-shadow: none;
+}
+
+.img-logo {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.divPhone {
+    padding-left: 60px;
+}
+
+.orderPhone, .opening, .text-p {
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff !important;
+}
+
+.btn-menu {
+    background-color: #78b5af !important;
+    font-weight: bold !important;
+}
+
+.backgroundImg {
+    background-image: url(img/pattern4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -50px;
+    height: 370px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.text-offer {
+    width: 300px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: #d90429;
+    margin: 0 auto;
+}
+
+.text-offer::before {
+    content: "";
+    background-image: url(img/iconflag.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 5px 0;
+}
+
+.text-offer::after {
+    content: "";
+    background-image: url(img/iconflag.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 5px 0;
+}
+
+.text-offer2 {
+    width: 500px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: #d90429;
+    margin: 0 auto;
+}
+
+.text-offer2::before {
+    content: "";
+    background-image: url(img/iconflag.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 5px 0;
+}
+
+.text-offer2::after {
+    content: "";
+    background-image: url(img/iconflag.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin: 5px 0;
+}
+
+.section-cards, .empty-div {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-h4 {
+        text-align: center;
+        font-weight: bold;
+}
+
+.price {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.price h5 {
+    font-weight: bold;
+}
+
+.section-footer {
+    margin-top: 50px;
+}
+
+.menu-item, a, h6 {
+    list-style-type: none;
+    color: #3c6e71 !important;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-item {
+    border-top: 1px solid #00B4D8;
+    margin-top: 10px;
+}
+
+.googlemaps-link {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+/*ételek lap*/
+
+.section-dishes, .section-card {
+    margin: 20px 0;
+}
+
+.cardbottom-dishes {
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.levesek {
+    text-decoration: none;
+    font-style: normal;
+    color: black !important;
+}
+
+/*asztalfoglalás*/
+
+.section-booking{
+    margin: 0 auto !important;
+    width: 800px;
+}
+
+textarea {
+    resize: none;
+}
+
+#send {
+    background-color: #73374d !important;
+}
+
+@media screen and (max-width: 1400px) {
+    #rowDishes, .card {
+        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        gap: 15px;
+    }
+
+    .text-offer {
+        width: 300px;
+        text-align: center;
+        font-style: italic;
+        font-weight: bolder;
+        color: #d90429;
+        margin: 0 auto;
+    }
+
+    .section-booking{
+        margin: 0 auto !important;
+        width: 800px;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0 10px 10px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #rowDishes, .card {
+        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        gap: 15px;  
+    }
+
+    .orderPhone, .opening, .text-p {
+        font-weight: bold;
+        font-size: 10px;
+        font-style: italic;
+        color: #ffffff !important;
+    }
+
+     .section-booking{
+        margin: 0 auto !important;
+        width: auto;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0 10px 10px;
+    }
+   
+}
+
+
+@media screen and (max-width: 992px) {
+    #rowDishes, .card {
+        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        gap: 15px;    
+    }
+
+    .orderPhone, .opening, .text-p {
+        font-weight: bold;
+        font-size: 10px;
+        font-style: italic;
+        color: #ffffff !important;
+    }
+
+    .btn-menu {
+    font-size: 10px;
+    margin: 5px 0;
+    }
+
+    .divPhone {
+        padding: 0 0 0 1px;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0 10px 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    #rowDishes, .card {
+        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        gap: 15px;    
+    }
+
+    .orderPhone, .opening, .text-p {
+        font-weight: bold;
+        font-size: 10px;
+        font-style: italic;
+        color: #ffffff !important;
+    }
+
+    .btn-menu {
+    font-size: 10px;
+    margin: 5px 0;
+    }
+
+    .img-logo {
+        width: 120px;
+    }
+
+    .text-offer2 {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .divPhone {
+        padding: 0 0 0 1px;
+    }
+
+    .navbar-toggler {
+        margin: 10px 0 10px 10px;
+    }
+
+}
