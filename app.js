@@ -1,6 +1,6 @@
 //asztalfoglalás form felület változóinak felvétele
 
-document.getElementById("send").addEventListener("click", () => {
+document.getElementById("send").addEventListener("click", function() {
     var name = document.getElementById("name");
     email = document.getElementById("email");
     phone = document.getElementById("phone");
@@ -333,3 +333,7 @@ function regexDate() {
     }
 }
 */
+
+
+//cart item button készítés
+
